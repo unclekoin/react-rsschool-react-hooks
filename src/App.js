@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './app.css';
+
+// import { SimpleCounter } from './components/simple-counter/simple-counter';
+// import { CounterWithLogger } from './components/counter-with-logger/counter-with-logger';
+// import { CounterWithTimer } from './components/counter-with-timer/counter-with-timer';
+import { KnownResize } from './components/known-resize/known-resize';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {/* useState */}
+      {/* <SimpleCounter /> */}
+
+      {/* useEffect */}
+      {/* <CounterWithLogger /> */}
+      {/* <CounterWithTimer /> */}
+
+      {/* useCallback */}
+      <KnownResize />
     </div>
   );
 }
